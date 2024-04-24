@@ -1,0 +1,47 @@
+.popupContainer {
+  position: relative;
+  margin-top: 3%;
+  margin-left: 5%;
+  z-index: 1;
+}
+
+.toggleButton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.menu {
+  position: absolute;
+  text-align: center;
+  top: 100%;
+  width: 20vw;
+  right: 1%;
+  height: 10vh;
+  background-color: white;
+  border: 1px solid white;
+  padding: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.name{
+  text-align: center;
+  font-family: 'DM Sans',sans-serif;
+  margin-bottom: 5%;
+  
+}
+
+.logoutbtn {
+  width: 50%;
+ height: 50%;
+  margin-top: 0.6%;
+  padding: 0.5%;
+  border: solid white;
+  border-radius: 20px;
+  background: #ff7373;
+  color: #fff;
+  text-align: center;
+  font-family: "DM Sans", sans-serif;
+  font-size: 90%;
+  cursor: pointer;
+}

@@ -1,0 +1,154 @@
+.storyContainer {
+  position: relative;
+  left: 13%;
+}
+
+.storyItem {
+  position: relative;
+}
+
+.images {
+  width: 21.1875rem;
+  height: 32rem;
+}
+
+.options {
+  position: absolute;
+  display: flex;
+  width: 43.5%;
+  height: 12%;
+  z-index: 1;
+  background: linear-gradient(180deg, #000 59.6%, rgba(0, 0, 0, 0) 102.31%);
+}
+
+.closebtn {
+  position: absolute;
+  cursor: pointer;
+  top: 70%;
+  left: 5%;
+}
+
+.link {
+  position: absolute;
+  margin-left: 80%;
+  top: 70%;
+  cursor: pointer;
+}
+
+.toggle {
+  width: 80%;
+  display: inline;
+  position: absolute;
+  margin-top: 35%;
+  z-index: 1;
+}
+
+.previous {
+  cursor: pointer;
+}
+
+.next {
+  cursor: pointer;
+  margin-left: 75%;
+}
+
+.details {
+  position: absolute;
+  background: black;
+  width: 43.3%;
+  z-index: 1;
+  margin-top: 55%;
+  height: 28%;
+}
+
+.heading {
+  font-size: 1.5rem;
+  color: white;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.description {
+  font-size: 1.25rem;
+  color: white;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 3%;
+  margin-left: 5%;
+}
+
+.postAction {
+  position: relative;
+  width: 100%;
+  margin-top: 8%;
+  background-color: black;
+}
+
+.bookmarkbtn {
+  margin-left: 10%;
+  cursor: pointer;
+}
+
+.likebtn {
+  background-color: black;
+  margin-left: 58%;
+  cursor: pointer;
+  border: none;
+}
+
+.likeCount {
+  display: inline-block;
+  color: white;
+  font-size: 1rem;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+
+.customModal {
+  width: 40vw;
+  height: 60vh;
+}
+
+@media screen and (max-width: 768px) {
+  .images {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .details {
+    width: 52%;
+    height: 40%;
+  }
+  .options {
+    width: 52%;
+  }
+
+  .toggle{
+    width: 45%;
+    margin-left: 8%;
+    position: absolute;
+    display: flex;
+
+  }
+
+  .previous{
+    width: 10;
+    height: 10;
+    margin-left: 20%;
+    z-index: 1000;
+  }
+
+  .next{
+    width: 10;
+    height: 10;
+    z-index: 1000;
+    margin-right: 10%;
+  }
+}
